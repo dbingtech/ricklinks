@@ -1,0 +1,42 @@
+:root {
+  --text: #eeeeee;
+  --background: #0c3c60;
+  --hover: #9e7682;
+}
+
+* {
+  font-family: "Signika", sans-serif;
+  color: var(--text);
+}
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  background-color: var(--background);
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.heading,
+.heading h2 {
+  background-color: #fbb040;
+  color: #333333;
+  padding: 0.15em 1em;
+}
+
+.item {
+  padding: 1.5em;
+}
+
+.small_txt {
+  font-size: 0.75em;
+}/*# sourceMappingURL=styles.css.map */
