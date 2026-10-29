@@ -1,6 +1,6 @@
 :root {
-  --text: #eeeeee;
-  --background: #0c3c60;
+  --text: #000000;
+  --background: #ffffff;
   --hover: #9e7682;
 }
 
@@ -18,6 +18,18 @@ body {
 h1 {
   text-align: center;
 }
+
+header {
+  position: relative;
+  padding: 16px 0;
+}
+
+.dashboard_link {
+  position: absolute;
+  top: calc(16px + 0.67em);
+  left: 1.5rem;
+  font-size: 2em;
+}
 .container {
   display: flex;
   flex-direction: row;
@@ -32,9 +44,17 @@ h1 {
   padding: 0.15em 1em;
 }
 
+.heading h2 {
+  margin: 0.4em 0;
+}
+
 .item {
   padding: 1.5em;
 }
+
+.item a {
+  font-size: 18px;
+}
 .small_txt {
-  font-size: 0.75em;
+  font-size: 18px;
 }
